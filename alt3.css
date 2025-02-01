@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    padding: 40px;
+}
+
+.container {
+    width: 312px;
+    height: 238px;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(255, 0, 149);
+    padding: 21px 8px;
+    font-family: arial;
+    font-weight: bold;
+    width: 295px;
+    border-radius: 5px;
+    transform: translateY(-15px);
+}
+
+p {
+    font-family: Arial;
+    padding-bottom: 40px;
+    line-height: 1.4rem;
+    text-align: left;
+    /* font-weight: bold; */
+}
