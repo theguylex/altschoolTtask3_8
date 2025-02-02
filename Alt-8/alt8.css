@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: fixed;
+    z-index: 8;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 145px;
+}
+
+.navlinks ul {
+    display: flex;
+}
+
+.navlinks ul li {
+    list-style: none;
+    padding: 0px 25px;
+    font-size: 18px;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+}
+
+.navlinks ul li .link {
+    color: black;
+}
+
+.url-navlink {
+    color: rgba(0, 101, 254, 1);
+}
+
+.navlinks ul li .link button {
+    all: unset;
+    margin-left: 5px;
+}
+
+.login-try-flex {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.login-try-flex a {
+    text-decoration: none;
+    color: rgba(0, 101, 254, 1);
+}
+
+.login-try-flex button {
+    color: white;
+    background-color: rgba(0, 101, 254, 1);
+    padding: 12px 24px;
+    border: 1px solid rgba(0, 101, 254, 1);
+    border-radius: 100px;
+    font-weight: bold;
+    transition: all 0.9s ease;
+}
+
+.login-try-flex button:hover {
+    color: rgba(0, 101, 254, 1);
+    background-color: white;
+    border: 1px solid rgba(0, 101, 254, 1);
+    transition: all 0.9s ease;
+}
