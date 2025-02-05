@@ -202,3 +202,37 @@ nav {
     top: 20px;
     left: 180px;
 }
+
+.possibilities-banner {
+    height: 220px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 140px;
+    gap: 120px;
+    background-color: rgba(249, 251, 253, 1);
+}
+
+.left-flex h2 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.left-flex-header span {
+    color: rgba(0, 101, 254, 1);
+}
+
+.right-flex {
+    display: flex;
+    gap: 62px;
+}
+
+.option h4 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.option p {
+    font-size: 16px;
+}
