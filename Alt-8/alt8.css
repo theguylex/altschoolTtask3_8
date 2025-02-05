@@ -152,26 +152,36 @@ nav {
 .section1-card {
     border: 0.5px solid rgba(0, 101, 254, 1);
     border-radius: 25px;
-    padding: 20px 0px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 50px;
+    max-width: 770px;
+    height: 224px;
     margin-top: 40px;
-}
-
-.section1-card p {
-    border: 1px solid black;
-    /* width: 60%; */
-    font-size: 16px;
-    line-height: 24px;
-    /* padding: 0px 90px; */
+    background-color: rgba(254, 254, 254, 0.9);
+    position: relative;
 }
 
 .section1 .frame {
     display: flex;
     align-items: center;
-    transform: translateX(-65px);
     gap: 20px;
-    border: 1px solid;
+    width: 384px;
+    /* border: 1px solid; */
+}
+
+.section1-card p {
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 20%;
+}
+
+.card-vector2 {
+    position: absolute;
+    z-index: -1;
+    left: 10px;
 }
