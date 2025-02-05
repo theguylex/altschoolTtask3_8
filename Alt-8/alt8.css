@@ -236,3 +236,71 @@ nav {
 .option p {
     font-size: 16px;
 }
+
+.why-choose {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+    gap: 96px;
+    padding: 10% 0px;
+}
+
+.why-choose-header {
+    width: 420px;
+    /* border: 1px solid; */
+}
+
+.header-container {
+    /* border: 1px solid; */
+    padding-left: 2px;
+    width: 100%;
+}
+
+.why-choose-header h3 {
+    font-size: 40px;
+    /* border: 1px solid; */
+    padding-left: 15px;
+    position: relative;
+}
+
+.why-choose-header h3::after {
+    content: url(assets/Line\ 70.png);
+    position: absolute;
+    left: -1%;
+}
+
+.why-choose-header h3 span {
+    color: rgba(0, 101, 254, 1);
+}
+
+.why-choose-header p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 0px 3%;
+}
+
+.why-choose-offers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* border: 1px solid; */
+    width: 708px;
+}
+
+.offers {
+    width: 333px;
+    /* border: 1px solid; */
+}
+
+.offers h3 {
+    font-size: 32px;
+    line-height: 28px;
+    margin: 25px 0px;
+}
+
+.offers p {
+    font-size: 16px;
+    line-height: 24px;
+}
