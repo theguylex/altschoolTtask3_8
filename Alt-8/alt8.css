@@ -669,8 +669,65 @@ form p span {
     bottom: 0px;
 }
 
+/* --------------------Max width 768px--------------------------------- */
 @media (max-width: 768px) {
     .faq-container {
         width: 90%;
     }
+}
+
+.section6 {
+    background-color: rgb(30, 52, 72);
+    height: 299px;
+    display: flex;
+    flex-direction: center;
+    /* align-items: center; */
+    /* border: 2px solid; */
+    position: relative;
+    overflow: hidden;
+}
+
+.section6-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+    width: 100%;
+    color: white;
+}
+
+.section6-container h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section6-container button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgba(0, 101, 254, 1);
+    color: white;
+    margin-top: 40px;
+}
+
+.section6::before {
+    content: url(assets/Vector\(11\).png);
+    position: absolute;
+}
+
+.section6::after {
+    content: url(assets/Vector\(12\).png);
+    position: absolute;
+}
+
+.vec13 {
+    position: absolute;
+}
+
+.vecGroup2 {
+    position: absolute;
+    right: 0px;
 }
