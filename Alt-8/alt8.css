@@ -549,3 +549,128 @@ form p span {
     right: 0px;
     bottom: 0px;
 }
+
+/* ----------------------------------faq section-------------------------------------------- */
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.section5 h1 {
+    font-size: 40px;
+    display: flex;
+    /* border: 1px solid ; */
+    padding: 0px 10px;
+    position: relative;
+}
+
+.section5 h1::before {
+    content: url(assets/Line\ 70.png);
+    position: absolute;
+    left: -8px;
+} 
+
+.faq-container {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 20px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question1 {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question1:after {
+    content: '-';
+    font-size: 30px;
+}
+
+.faq-answer1 {
+    padding: 0 15px 15px 15px;
+    /* display: none; */
+    font-size: 16px;
+    line-height: 32px;
+    color: #666;
+}
+
+.faq-answer {
+    padding: 0 15px 15px 15px;
+    display: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.faq-question:after {
+    content: '+';
+    font-size: 20px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-question:after {
+    content: '-';
+}
+
+.section5::before {
+    content: url(assets/Vector\(5\).png);
+    position: absolute;
+    left: 0px;
+}
+
+.section5::after {
+    content: url(assets/Vector\(6\).png);
+    position: absolute;
+    left: 0px;
+}
+
+.vec7 {
+    position: absolute;
+    left: 0px;
+}
+
+.vec8, .vec9, .vec10 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .faq-container {
+        width: 90%;
+    }
+}
