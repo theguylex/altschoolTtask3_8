@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
+    /* border: 1px solid black; */
+    /* overflow-x: hidden; */
 }
 
 nav {
     position: fixed;
     z-index: 7;
-    /* border: 1px solid black; */
     width: 100%;
+    /* border: 1px solid black; */
     background-color: #fff;
 }
 
@@ -194,7 +196,7 @@ nav {
 }
 
 .trapezium {
-    width: 1348px;
+    width: 1328px;
 }
 
 .ellipse {
@@ -689,6 +691,7 @@ form p span {
     /* border: 2px solid; */
     width: 100%;
     color: white;
+    z-index: 5;
 }
 
 .section6-container h1 {
@@ -724,4 +727,111 @@ form p span {
 .vecGroup2 {
     position: absolute;
     right: 0px;
+}
+
+footer {
+    height: 561px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 10%;
+}
+
+.contacts-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* border: 1px solid; */
+}
+
+.logo-socials {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+
+.logo-socials img {
+    width: 13.3vw;
+    height: 6.3vh;
+    /* border: 1px solid; */
+}
+
+.socials {
+    padding: 10px;
+    display: flex;
+    gap: 24px;
+}
+
+.socials i {
+    color: black;
+    font-size: 24px;
+    /*margin-right: 15px;*/
+    transition: all .9s ease;
+}
+
+.socials i:hover {
+    transform: translateY(-10px);
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 13.8px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+    /* height: 384px; */
+    width: 812px;
+}
+
+.linkGroup {
+    padding: 0px 3%;
+    /* border: 1px solid; */
+    width: 179px;
+}
+
+.linkGroup h4 {
+    font-size: 16px;
+}
+
+.linkGroup ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.linkGroup ul li {
+    padding: 8px 0px;
+}
+
+.linkGroup ul li a {
+    text-decoration: none;
+    color: rgba(17, 34, 50, 1);
+}
+
+.linkGroup ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.termsSecurityCopy {
+    color: rgba(17, 34, 50, 1);
+    margin-top: 30px;
+}
+
+.termsSecurityCopy h3 {
+    font-size: 14px;
+}
+
+footer::after {
+    /* content: url(assets/Group\ 3.png); */
+    position: absolute;
+    left: 0px;
 }
